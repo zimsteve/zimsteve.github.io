@@ -1,0 +1,20 @@
+html {
+    background-image: url("green pasta.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #DCDCDC;
+}
+
+ul {
+	list-style: square outside none;
+}
+
+body {
+  font: normal small-caps normal 24px/1.4 Georgia;
+}
