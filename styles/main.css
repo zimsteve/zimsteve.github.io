@@ -1,4 +1,18 @@
 .full-background {
-    background-image: url("vintage.jpg");
-    background-size: cover;
+  background-image: url("vintage.jpg");
+  background-size: cover;
+}
+
+.headers {
+  border-color: blue;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.paragraphs {
+  border-color: yellow;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
 }
