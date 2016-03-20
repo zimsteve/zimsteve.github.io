@@ -1,14 +1,20 @@
 .full-background {
-  background-image: url("vintage.jpg");
+  background-image: url("leaves.jpg");
   background-size: cover;
 }
 
-.headers {
-  border-color: blue;
-  border-width: 6px;
-  border-style: solid;
-  border-radius: 6px;
-  width: 50%
+.span {
+  padding: 10px;
+  border: 10px solid white;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  text-align: center;
+}
+
+.grey-text{
+  color: #EEEEEE
 }
 
 .center {
