@@ -8,11 +8,14 @@
   border-width: 6px;
   border-style: solid;
   border-radius: 6px;
+  width: 50%
 }
 
-.paragraphs {
-  border-color: yellow;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 3px;
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
 }
