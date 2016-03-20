@@ -3,18 +3,28 @@
   background-size: cover;
 }
 
-.span {
+.banner {
   padding: 10px;
   border: 10px solid white;
   display: inline-block;
   position: absolute;
-  left: 25%;
+  left: 28%;
   top: 10%;
   text-align: center;
 }
 
-.grey-text{
-  color: #EEEEEE
+.date {
+  padding: 10px;
+  border: 10px solid white;
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  text-align: center;
+}
+
+.grey-text {
+  color: #EEEEEE;
 }
 
 .center {
