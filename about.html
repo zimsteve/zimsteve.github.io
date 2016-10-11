@@ -9,7 +9,19 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="5; URL='http://new-website.com'" />
+        <meta http-equiv="refresh" content="5; URL= 'goHome()'" />
+        <script language="javascript">
+            function goHome(){
+            if (typeof window.home == 'function'){ // The rest of the world
+                window.home();
+                } else if (document.all) { // For IE 
+                    window.location.href = "about:home";
+                } else {
+                    document.write("<p>Please click on your browser's Home
+                    button.</p>");
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
