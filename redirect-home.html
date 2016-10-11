@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Steve Sharp | Aspiring Developer</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript">
+            var homePage = function goHome(){
+            if (typeof window.home == 'function'){ // The rest of the world
+                window.home();
+                } else if (document.all) { // For IE 
+                    window.location.href = "about:home";
+                } else {
+                    document.write("<p>Please click on your browser's Home button.</p>");
+                }
+                return
+            }
+        </script>
+        <meta http-equiv="refresh" content="5; URL='window.home'" />
+    </head>
+<body>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
