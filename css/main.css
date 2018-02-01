@@ -4,6 +4,11 @@ GENERAL
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background: url(../img/Cute-Monster.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #wrapper {
@@ -25,11 +30,6 @@ h3 {
 }
 
 html { 
-  background: url(../img/Cute-Monster.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 
