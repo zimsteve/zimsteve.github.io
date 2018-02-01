@@ -102,6 +102,9 @@ footer {
     clear: both;
     padding-top: 50px;
     color: #ccc;
+    position: fixed;
+    Width: 100%;
+    bottom: 0;
 }
 
 .social-icon {
