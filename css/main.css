@@ -5,7 +5,7 @@ GENERAL
 body {
     font-family: 'Open Sans', sans-serif;
     background: url(../img/Cute-Monster.jpg) no-repeat center center fixed;
-    opacity:0.5;
+    background-opacity:0.5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
